@@ -1,0 +1,67 @@
+/* stylessheet */
+@font-face {
+    font-family: roboto;
+    src: url('/abisolakorede/downloads/Roboto');
+}
+
+/* header */
+.header {
+    background-color: #1f2937;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.headerlogo {
+    font-size: 24px;
+    color: #f9faf8;
+}
+.links {
+    color: #e5e7eb;
+    font-size: 18px;
+}
+ul {
+    list-style: none;
+    display: flex;
+    gap: 5px;
+}
+/* second half of header */
+.header2 {
+    display: flex;
+    flex-wrap: wrap;
+    background-color:#1f2937;
+    color:#f9faf8;
+}
+
+.greenview {
+    width: auto;
+    height: 150px;
+}
+
+.headersubtitle {
+    font-weight: bold;
+    display: flex;
+    justify-content: space-between;
+   
+}
+
+.body1 {
+    background-color: #f9faf8;
+}
+.body2 {
+    background-color: #e5e7eb;
+}
+.bluepop {
+    background-color: #3882f6;
+}
+
+/* footer */
+.footer {
+    background-color:#1f2937;
+    color: #f9faf8;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px;
+}
