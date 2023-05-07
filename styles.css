@@ -1,23 +1,25 @@
 /* stylessheet */
-@font-face {
+body {
     font-family: roboto;
-    src: url('/abisolakorede/downloads/Roboto');
 }
-
 /* header */
 .header {
     background-color: #1f2937;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
     align-items: center;
+    
 }
 .headerlogo {
-    font-size: 24px;
+    font-size: 18px;
     color: #f9faf8;
+    margin-left: 100px;
+    font-weight: bold;
 }
 .links {
     color: #e5e7eb;
     font-size: 18px;
+    margin-right: 100px;
 }
 ul {
     list-style: none;
@@ -31,17 +33,59 @@ ul {
     background-color:#1f2937;
     color:#f9faf8;
 }
-
+/* header pic */
 .greenview {
-    width: auto;
-    height: 150px;
+    max-width: 370px;
+    max-height: 250px;
+}
+.titleimage {
+    display: flex;
+    flex: 2;
+    margin-left: 200px;
+    flex-shrink: 0;
 }
 
 .headersubtitle {
     font-weight: bold;
     display: flex;
-    justify-content: space-between;
-   
+    flex-direction: row;
+    flex-wrap: wrap;
+    flex-shrink: 0;
+    flex: 1;
+    justify-content: flex-start;
+}
+.boldfont {
+    font-size: 30px;
+    font-weight: bold;
+    margin-left: 100px;
+}
+.headersmallertext {
+    font-size: 18px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: -140px;
+    margin-left: 100px;
+    justify-content: flex-start;
+}
+.smalltext {
+    flex: 2;
+}
+.signupbutton {
+    display: flex;
+    justify-content: flex-start;
+}
+.sign {
+    background-color: #3882f6;
+    color: #f9faf8;
+    font-size: 18px;
+    margin-left: 100px;
+    flex-shrink: 0;
+}
+.bodytitle {
+    display: flex;
+    justify-content: center;
+    font-weight: bolder;
+    font-size: 26px;
 }
 
 .body1 {
