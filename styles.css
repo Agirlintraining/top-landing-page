@@ -1,6 +1,8 @@
 /* stylessheet */
 body {
     font-family: roboto;
+    display: flex;
+    flex-direction: column;
 }
 /* header */
 .header {
@@ -29,58 +31,41 @@ ul {
 /* second half of header */
 .header2 {
     display: flex;
-    flex-wrap: wrap;
     background-color:#1f2937;
     color:#f9faf8;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+}
+.subtitle {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 400px;
+    margin-right: 100px;
+    gap: 20px;
 }
 /* header pic */
 .greenview {
-    max-width: 370px;
-    max-height: 250px;
-}
-.titleimage {
-    display: flex;
-    flex: 2;
-    margin-left: 200px;
-    flex-shrink: 0;
+    width: 270px;
+    height: 200px;
 }
 
-.headersubtitle {
-    font-weight: bold;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    flex-shrink: 0;
-    flex: 1;
-    justify-content: flex-start;
-}
 .boldfont {
     font-size: 30px;
     font-weight: bold;
-    margin-left: 100px;
-}
-.headersmallertext {
-    font-size: 18px;
-    display: flex;
-    flex-wrap: wrap;
-    margin-top: -140px;
-    margin-left: 100px;
-    justify-content: flex-start;
 }
 .smalltext {
-    flex: 2;
+    font-size: 18px;
 }
-.signupbutton {
-    display: flex;
-    justify-content: flex-start;
-}
+/* first sign up button */
 .sign {
     background-color: #3882f6;
     color: #f9faf8;
     font-size: 18px;
-    margin-left: 100px;
-    flex-shrink: 0;
+    padding: 10px;
 }
+/* beginning of middle section*/
 .bodytitle {
     display: flex;
     justify-content: center;
@@ -152,6 +137,7 @@ ul {
     margin-left: 115px;
     margin-top: -18px;
 }
+/*second sign up button */
 .button2 {
     display: flex;
     font-size: 16px;
@@ -178,4 +164,6 @@ ul {
     align-items: center;
     flex-direction: column;
     padding: 20px;
+    margin: -8px;
+    flex-shrink: 0;
 }
