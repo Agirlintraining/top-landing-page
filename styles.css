@@ -87,13 +87,29 @@ ul {
     font-weight: bolder;
     font-size: 26px;
 }
+/* middle pics section */
+.picscontainer {
+    display: flex;
+    justify-content: center;
+}
+.middle {
+    max-width: 50px;
+}
+/*quote section*/
+.body2 {
+    background-color: #e5e7eb;
+}
+.quote {
+    display: flex;
+    color: #1F2937;
+    font-weight: italic;
+}
 
 .body1 {
     background-color: #f9faf8;
 }
-.body2 {
-    background-color: #e5e7eb;
-}
+
+
 .bluepop {
     background-color: #3882f6;
 }
